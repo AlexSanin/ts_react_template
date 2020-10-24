@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "./dist/",
+    "module": "esnext",
+    "allowJs": true,
+    "jsx": "preserve",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["./src/*"]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.test.jsx",
+    "**/*.test.js",
+    "**/*.test.ts",
+    "**/*.test.tsx"
+  ],
+  "include": ["**/*.ts", "**/*.tsx"]
+}
